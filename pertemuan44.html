@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Praktik Form Pendaftaran Sekolah</title>
+</head>
+<body>
+    <h2 align="center">Form Registrasi SMK Nusantara</h2>
+    <form action="">
+        <fieldset>
+            <legend>Data Calon Siswa</legend>
+            <p>Nama Calon Siswa: <input type="text" placeholder="Nama Lengkap"></p>
+            <p>Tempat Lahir: <input type="text" placeholder="Tempat Lahir"></p>
+            <p>Jenis Kelamin: <input type="radio" name="jenis_klmn">Laki-laki <input type="radio" name="jenis_klmn">Perempuan</p>
+            <p>Alamat: <input type="text"></p>
+            <p>Tanggal Lahir: <input type="date"></p>
+            <p>Nomor NIK: <input type="text" placeholder="Nomor NIK"></p>
+            <p>NISN: <input type="text" placeholder="Nomor NISN"></p>
+            <p>
+                Agama: 
+                <select name="" id="">
+                    <option value="">Islam</option>
+                    <option value="">Kristen</option>
+                    <option value="">Budha</option>
+                    <option value="">Hindu</option>
+                    <option value="">Lainnya</option>
+                </select>
+            </p>
+            <p>RT: <input type="text" placeholder="Rt.xx"></p>
+            <p>Rw: <input type="text" placeholder="Rw.xx"></p>
+            <p>Kelurahan: <input type="text" placeholder="Nama Kelurahan"></p>
+            <p>Kecamatan: <input type="text" placeholder="Nama Kecamatan"></p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Data Orang Tua/Wali</legend>
+            <h4>Data Ayah</h4>
+            <p>Nama Ayah: <input type="text" placeholder="Nama Ayah"></p>
+            <p>Tanggal Lahir <input type="date"></p>
+            <p>Usia: <input type="number" min="20" max="100"></p>
+            <p>Pendidikan Terakhir: 
+                <select name="" id="">
+                    <option value="">S2</option>
+                    <option value="">S1</option>
+                    <option value="" selected>SMA</option>
+                    <option value="">SMP</option>
+                    <option value="">SD</option>
+                </select>
+            </p>
+            <p>Pekerjaan: <input type="text" placeholder="Pekerjaan Ayah"></p>
+            <p>Penghasilan Per-Bulan: </p> 
+            <p> 
+                <input type="radio" name="gaji_ayah"> Dibawah 2 Juta Juta
+                <input type="radio" name="gaji_ayah">2-5 Juta
+                <input type="radio" name="gaji_ayah">5-10 Juta
+                <input type="radio" name="gaji_ayah">Diatas 10 Juta
+            </p>
+            <br><br>
+            <h4>Data Ibu</h4>
+            <p>Nama Ibu: <input type="text" placeholder="Nama Ibu"></p>
+            <p>Tanggal Lahir <input type="date"></p>
+            <p>Usia: <input type="number" min="20" max="100"></p>
+            <p>Pendidikan Terakhir: 
+                <select name="" id="">
+                    <option value="">S2</option>
+                    <option value="">S1</option>
+                    <option value="" selected>SMA</option>
+                    <option value="">SMP</option>
+                    <option value="">SD</option>
+                </select>
+            </p>
+            <p>Pekerjaan: <input type="text" placeholder="Pekerjaan Ibu"></p>
+            <p>Penghasilan Per-Bulan: </p> 
+            <p> 
+                <input type="radio" name="gaji_ibu"> Dibawah 2 Juta Juta
+                <input type="radio" name="gaji_ibu">2-5 Juta
+                <input type="radio" name="gaji_ibu">5-10 Juta
+                <input type="radio" name="gaji_ibu">Diatas 10 Juta
+            </p>
+            <br><br>
+            <h4>Data Wali</h4>
+            <p>Nama Wali: <input type="text" placeholder="Nama Wali"></p>
+            <p>Tanggal Lahir <input type="date"></p>
+            <p>Usia: <input type="number" min="20" max="100"></p>
+            <p>Pendidikan Terakhir: 
+                <select name="" id="">
+                    <option value="">S2</option>
+                    <option value="">S1</option>
+                    <option value="" selected>SMA</option>
+                    <option value="">SMP</option>
+                    <option value="">SD</option>
+                </select>
+            </p>
+            <p>Pekerjaan: <input type="text" placeholder="Pekerjaan Wali"></p>
+            <p>Penghasilan Per-Bulan: </p> 
+            <p> 
+                <input type="radio" name="gaji_wali"> Dibawah 2 Juta Juta
+                <input type="radio" name="gaji_wali">2-5 Juta
+                <input type="radio" name="gaji_wali">5-10 Juta
+                <input type="radio" name="gaji_wali">Diatas 10 Juta
+            </p>
+        </fieldset>
+        <p>Pilih Jurusan:
+        <select name="" id="">
+            <option value="" selected>Teknik Komputer</option>
+            <option value="">Rekayasa Perangkat Lunak</option>
+            <option value="">Multimedia</option>
+        </select></p>
+
+        <details summary="WAJIB DIBACA"><p><input type="checkbox" required> Pernyataan persetujuan Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ducimus nam totam eaque quibusdam magni dolorum explicabo sequi, eveniet, nulla dicta voluptates ullam quidem veniam aliquid quos, ipsam eos nihil.</p></details>
+        <br>
+        <button type="submit">Kirim Data</button>
+    </form>
+</body>
+</html>
