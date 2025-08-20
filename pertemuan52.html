@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Picture & Source</title>
+    <!-- menampilkan ukuran gambar yg responsif sesuai layar tertentu ((pc/tablet/hp))  -->
+</head>
+<body>
+    <picture>
+        <source srcset="gambar/coffee_small.png" media="(max-width:500px)">
+        <source srcset="gambar/coffee_medium.png" media="(max-width:850px)">
+        <img src="gambar/coffee_big.png" alt="coffe_big" style="width: 100%;">
+        <!-- jika diatas 850 px yg ditampilkan gambar big jika diatas 500 medium dan dibawah 500px small  -->
+    </picture>
+</body>
+</html>
