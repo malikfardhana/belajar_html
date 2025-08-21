@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Datalist</title>
+</head>
+<body>
+    <form action="">
+        <label for="browser">Choose Your Browser :
+        </label>
+
+        <input type="text" list="browsers" placeholder="Type or choose">
+        <datalist id="browsers">
+            <option value="Chrome">Chrome</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Edge">Edge</option>
+        </datalist>
+        <!-- menampilkan opsi pilihan bisa juga menginput yang tidak ada di pilihan (auto suggestion)-->
+   <br><br>
+        <label for="">Choose Quantity</label>
+        <input type="number" list="quantities" min="1" max="5" step="1">
+        <datalist id="quantities">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </datalist>
+        <br><br>
+        <button type="submit">Kirim Data</Data></button>
+    </form>
+</body>
+</html>
